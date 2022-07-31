@@ -1,0 +1,109 @@
+.cite-font {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+.cite-font-big{
+  font-family: 'Playfair Display', serif;
+  font-size:7rem;
+  text-align: center;
+  position:relative;
+  bottom:30px;
+}
+.cite-font-lg {
+  font-family: 'Playfair Display', serif;
+  font-size:5rem;
+  text-align: center;
+  position:relative;
+  bottom:30px;
+}
+.cite-font-mid {
+  font-family: 'Playfair Display', serif;
+  font-size:3rem;
+  text-align: center;
+  position:relative;
+  bottom:70px;
+}
+
+.move-up {
+  position:relative;
+  bottom: 60px;
+}
+.move-up-up {
+  position:relative;
+  bottom: 80px;
+}
+.move-up-lit {
+  position:relative;
+  bottom: 50px;
+}
+.content-font {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+.square-font-big {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 4rem;
+}
+.hover-yellow: hover {
+  color: yellow;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://www.wedgesbakery.co.uk/wp-content/uploads/2019/09/hh-bread-display3000-2048x982.jpg");
+
+  /* Set a specific height */
+  min-height: 520px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cursive-font{
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 6rem;
+  text-align: center;
+  color: #A64B2A;
+}
+.cursive-font-big {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 8rem;
+  text-align: center;
+  color: #A64B2A;
+}
+.top-container {
+  padding-top: 70px;
+}
+.align-right {
+  text-align:right;
+}
+.padding-right {
+  margin-right: 30px
+}
+.vl {
+  border-left: 30px solid white;
+  height: 100%;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #A64B2A;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #E6B325;
+  text-decoration: none;
+  color: #ffffff;
+}
