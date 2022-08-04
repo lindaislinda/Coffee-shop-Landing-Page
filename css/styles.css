@@ -1,3 +1,15 @@
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
 .cite-font {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
@@ -52,7 +64,7 @@
   background-image: url("https://www.wedgesbakery.co.uk/wp-content/uploads/2019/09/hh-bread-display3000-2048x982.jpg");
 
   /* Set a specific height */
-  min-height: 520px;
+  min-height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -87,10 +99,7 @@
   height: 100%;
   font-weight: bold;
 }
-h2 {
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-}
+
 .btn {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
@@ -106,4 +115,32 @@ h2 {
   background: #E6B325;
   text-decoration: none;
   color: #ffffff;
+}
+
+.align-center {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.menu-list-title {
+  text-align: left;
+}
+
+.image-col {
+  align-self: center;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-item {
+  align-items: flex-start;
 }
