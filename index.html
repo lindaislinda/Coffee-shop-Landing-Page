@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
   <title>Cité Bakery & Tea</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -58,17 +59,17 @@
   <!--Parallax Effect-->
   <div class="parallax"></div>
   <!-- Top Container - WELCOME -->
-  <div class="container top-container" id="about">
+  <div class="container-lg top-container" id="about">
     <div class="row">
       <div class="col-lg-6">
         <p class="display-1 cursive-font">Welcome to</p>
         <p class="cite-font-big">CITÉ</p>
         <p class=cite-font-mid>Bakery & Tea</p>
-        <p class="move-up px-5">Cité specialises in Afternoon Tea with a French Twist
+        <p class="move-up">Cité specialises in Afternoon Tea with a French Twist
           – L’Afternoon Tea. Enjoy our afternoon tea either at our luxury bakery in
           Hue City or on the move on our unique and hugely popular bus tours.</p>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 align-center">
         <img
           src="https://images.squarespace-cdn.com/content/v1/549367d9e4b0b0a3e2543543/1581095461906-KAZ6J9E85FWLGX22YHW5/image-asset.jpeg?format=1000w"
           alt="coffee-img" width=100%>
@@ -77,16 +78,17 @@
 
     </div>
   </div>
+  <br>
   <!--Middle Container - MENU-->
-  <div class="container middle-container" id="menu">
+  <div class="container-lg middle-container" id="menu">
     <div class="row">
       <!--4 images-->
-      <div class="col col-lg-3 py-2 px-2 col-md-6 col-sm-6 order-lg-1 order-sm-2">
+      <div class="col col-lg-3 col-md-6 col-sm-6 col-6 order-lg-1 order-sm-2 order-2 py-2 px-2 image-col">
         <img src="https://media-cdn.tripadvisor.com/media/photo-s/18/56/64/5b/coffee-cake.jpg" class="py-2"
           alt="coffee-img" width=100%>
         <img src="https://pbs.twimg.com/media/FJTTcxpXsAESMkq.jpg" class="py-2" alt="coffee-img" width=100%>
       </div>
-      <div class="col col-lg-3 py-2 px-2 col-md-6 col-sm-6 order-lg-2 order-sm-3">
+      <div class="col col-lg-3 py-2 px-2 col-md-6 col-sm-6 col-6 order-lg-2 order-sm-3 order-2 image-col">
         <img
           src="https://s11.favim.com/orig/7/719/7195/71951/coffee-aesthetic-food-aesthetic-white-Favim.com-7195176.jpg"
           class="py-2" alt="coffee-img" width=100%>
@@ -96,71 +98,80 @@
       <div class="col col-lg-6 px-5 col-sm-12 col-md-12 order-lg-3 order-sm-1">
         <p class="cursive-font-big">Our</p>
         <p class="cite-font-lg move-up-up">MENU</p>
-        <!--table-->
-        <table class="table move-up-up">
-          <thead>
-            <tr>
-              <th scope="col" class="cite-font ">Bakery</th>
-              <th scope="col" class="align-right padding-right"></th>
-              <th scope="col" width=30 px class="vl"></th>
-              <th scope="col" class="cite-font">Tea</th>
-              <th scope="col" class="align-right"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Cookies</td>
-              <td class="align-right padding-right">$3.25</td>
-              <td class="vl"></td>
-              <td>Jasmine</td>
-              <td class="align-right">$5.35</td>
-            </tr>
-            <tr>
-              <td>Croissant</td>
-              <td class="align-right padding-right">$4.55</td>
-              <td class="vl"></td>
-              <td>Chamomile</td>
-              <td class="align-right">$6.99</td>
-            </tr>
-            <tr>
-              <td>Bagel</td>
-              <td class="align-right padding-right">$4.70</td>
-              <td class="vl"></td>
-              <td>Masala</td>
-              <td class="align-right">$7.85</td>
-            </tr>
-            <tr>
-              <td>Doughnuts</td>
-              <td class="align-right padding-right">$5.35</td>
-              <td class="vl"></td>
-              <td>Oolong</td>
-              <td class="align-right">$7.99</td>
-            </tr>
-            <tr>
-              <td>Cheesecake</td>
-              <td class="align-right padding-right">$7.45</td>
-              <td class="vl"></td>
-              <td>Hibiscus</td>
-              <td class="align-right">$8.65</td>
-            </tr>
-            <tr>
-              <td>Coffee Cake</td>
-              <td class="align-right padding-right">$10.25</td>
-              <td class="vl"></td>
-              <td>Sea Buckthorn</td>
-              <td class="align-right">$12.75</td>
-            </tr>
-          </tbody>
-        </table>
+        <!--table menu-->
+        <div class="row">
+          <!-- BAKERY -->
+          <div class="col col-12 col-md-6 move-up">
+            <h3 class = "menu-list-title">BAKERY</h2>
+            <hr>
+            <ul>
+              <li>
+                <p class = "list-item">Cookies</p>
+                <span class = "item-price">$3.25</span>
+              </li>
+              <li>
+                <p>Croissant</p>
+                <span>$4.55</span>
+              </li>
+              <li>
+                <p>Bagel</p>
+                <span>$4.70</span>
+              </li>
+              <li>
+                <p>Doughnuts</p>
+                <span>$5.35</span>
+              </li>
+              <li>
+                <p>Cheesecake</p>
+                <span>$7.45</span>
+              </li>
+              <li>
+                <p>Coffee Cake</p>
+                <span>$10.25</span>
+              </li>
+            </ul>
+          </div>
+          <!-- TEA -->
+          <div class="col col-12 col-md-6 move-up">
+            <h3 class = "menu-list-title">BAKERY</h2>
+            <hr>
+            <ul>
+              <li>
+                <p class = "list-item">Cookies</p>
+                <span class = "item-price">$3.25</span>
+              </li>
+              <li>
+                <p>Croissant</p>
+                <span>$4.55</span>
+              </li>
+              <li>
+                <p>Bagel</p>
+                <span>$4.70</span>
+              </li>
+              <li>
+                <p>Doughnuts</p>
+                <span>$5.35</span>
+              </li>
+              <li>
+                <p>Cheesecake</p>
+                <span>$7.45</span>
+              </li>
+              <li>
+                <p>Coffee Cake</p>
+                <span>$10.25</span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
 
   </div>
   <!--Contact Container-->
-  <div class = "container" id = "contact">
+  <div class = "container-lg" id = "contact">
     <div class="row">
-      <div class="col col-md-6 col-sm-12 px-5">
+      <div class="col col-lg-6 col-md-12 col-12 px-5">
         <h2>GET IN TOUCH</h2>
         <br>
         <!--Description-->
@@ -168,18 +179,18 @@
         <br>
         <!--Adress-->
         <p>
-          <i class="fa-solid fa-location-dot"></i> 
+          <i class="fa-solid fa-location-dot"></i>
           <a style = "text-decoration: none; color: #A64B2A " href="https://www.google.com/maps/place/Cit%C3%A9+Bakery+and+Tea/@16.4675864,107.5925644,17z/data=!3m1!4b1!4m5!3m4!1s0x3141a1de74dd81b5:0x7e80bb9b48f868e8!8m2!3d16.467585!4d107.5947274" target = "_blank"> 5b Ben Nghe, Phu Hoi, Hue, Thua Thien Hue 550000</a>
         </p>
         <!--Phone number-->
         <p>
-          <i class="fa-solid fa-phone"></i> 
+          <i class="fa-solid fa-phone"></i>
           <a style = "text-decoration: none; color: #A64B2A " href="tel: +84775598775">0775 598 775</a>
         </p>
       </div>
 
       <!--Form-->
-      <div class="col col-md-6 col-sm-12 px-5">
+      <div class="col col-lg-6 col-md-12 col-12 px-5">
         <form id = "getInTouch">
           <div class = "mb-3">
             <label for="name" class="form-label">Your name</label>
@@ -195,22 +206,22 @@
           </div>
           <div class = "mb-3">
               <label for="content" class = "form-label">Content</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
           </div>
           <button type="submit" class="btn">Submit</button>
         </form>
 
       </div>
 
-    
+
     </div>
   </div>
-  
+
   <!-- <div style = "background-color: black" class = "container">
-    
+
   </div> -->
 
-  
+
 
 
 
