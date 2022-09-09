@@ -1,4 +1,4 @@
-
+/******************** Font **************************/
 h2 {
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -14,6 +14,7 @@ h3 {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
+
 .cite-font-big{
   font-family: 'Playfair Display', serif;
   font-size:7rem;
@@ -21,6 +22,7 @@ h3 {
   position:relative;
   bottom:30px;
 }
+
 .cite-font-lg {
   font-family: 'Playfair Display', serif;
   font-size:5rem;
@@ -28,6 +30,7 @@ h3 {
   position:relative;
   bottom:30px;
 }
+
 .cite-font-mid {
   font-family: 'Playfair Display', serif;
   font-size:3rem;
@@ -36,41 +39,14 @@ h3 {
   bottom:70px;
 }
 
-.move-up {
-  position:relative;
-  bottom: 60px;
-}
-.move-up-up {
-  position:relative;
-  bottom: 80px;
-}
-.move-up-lit {
-  position:relative;
-  bottom: 50px;
-}
 .content-font {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
+
 .square-font-big {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 4rem;
-}
-.hover-yellow: hover {
-  color: yellow;
-}
-.parallax {
-  /* The image used */
-  background-image: url("https://www.wedgesbakery.co.uk/wp-content/uploads/2019/09/hh-bread-display3000-2048x982.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .cursive-font{
@@ -85,9 +61,40 @@ h3 {
   text-align: center;
   color: #A64B2A;
 }
-.top-container {
-  padding-top: 70px;
+
+/******************** Position **************************/
+.move-up {
+  position:relative;
+  bottom: 60px;
 }
+.move-up-up {
+  position:relative;
+  bottom: 80px;
+}
+.move-up-lit {
+  position:relative;
+  bottom: 50px;
+}
+
+.hover-yellow:hover {
+  color: yellow;
+}
+
+/******************** Parallax effect **************************/
+.parallax {
+  /* The image used */
+  background-image: url("https://www.wedgesbakery.co.uk/wp-content/uploads/2019/09/hh-bread-display3000-2048x982.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .align-right {
   text-align:right;
 }
@@ -100,6 +107,12 @@ h3 {
   font-weight: bold;
 }
 
+/******************** Container **************************/
+.top-container {
+  padding-top: 70px;
+}
+
+/******************** Buttons **************************/
 .btn {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
@@ -144,3 +157,19 @@ li {
 .list-item {
   align-items: flex-start;
 }
+
+/******************** Bootstrap 5 Modify **************************/
+.navbar {
+  padding: 0;
+}
+
+/******************** Laptop User **************************/
+@media screen and (min-width: 992px){
+  .top-container,
+  .middle-container,
+  .bottom-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
